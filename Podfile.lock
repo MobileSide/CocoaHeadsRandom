@@ -1,0 +1,45 @@
+PODS:
+  - Bolts/Tasks (1.2.2)
+  - DRBCocoaHeadsLib (0.1.0)
+  - JDFlipNumberView (2.2.3):
+    - JDFlipNumberView/Core (= 2.2.3)
+    - JDFlipNumberView/DefaultImageBundle (= 2.2.3)
+    - JDFlipNumberView/FlipImageView (= 2.2.3)
+  - JDFlipNumberView/Core (2.2.3)
+  - JDFlipNumberView/DefaultImageBundle (2.2.3):
+    - JDFlipNumberView/Core
+  - JDFlipNumberView/FlipImageView (2.2.3)
+  - Parse (1.8.3):
+    - Bolts/Tasks (>= 1.2.2)
+  - ParseUI (1.1.6):
+    - Bolts/Tasks (~> 1.2)
+    - Parse (~> 1.8)
+  - SHSPhoneComponent (2.15)
+  - VMaskTextField (1.0.4)
+
+DEPENDENCIES:
+  - DRBCocoaHeadsLib (from `https://danielbatiston@bitbucket.org/danielbatiston/drbcocoaheadslib.git`)
+  - JDFlipNumberView (~> 2.2)
+  - ParseUI (~> 1.1)
+  - SHSPhoneComponent (~> 2.15)
+  - VMaskTextField (~> 1.0)
+
+EXTERNAL SOURCES:
+  DRBCocoaHeadsLib:
+    :git: https://danielbatiston@bitbucket.org/danielbatiston/drbcocoaheadslib.git
+
+CHECKOUT OPTIONS:
+  DRBCocoaHeadsLib:
+    :commit: 931e3cfdb2c8b32b37435770f0c3e77001e88249
+    :git: https://danielbatiston@bitbucket.org/danielbatiston/drbcocoaheadslib.git
+
+SPEC CHECKSUMS:
+  Bolts: 20a2bd788273360cb1e31530dc19b8544eef2544
+  DRBCocoaHeadsLib: 640295cc67788b0bb19f25a3cb8ca908cdeaff75
+  JDFlipNumberView: e4672404447e7240d26d22f8c850660cd44eef69
+  Parse: 4b251ac63b76d12b334a32579cc3b174446f0c39
+  ParseUI: 8a22e448c03f825203d8c379c80523517f68baa3
+  SHSPhoneComponent: 4cec0653a150ad63cbc52b0c8b29ce2d3c9c26f0
+  VMaskTextField: 633dfde6182fb3ea6604abb675e05cdc108006df
+
+COCOAPODS: 0.38.2

@@ -1,0 +1,25 @@
+{
+  "name": "DRBCocoaHeadsLib",
+  "version": "0.1.0",
+  "summary": "A short description of DRBCocoaHeadsLib.",
+  "description": "",
+  "homepage": "https://bitbucket.org/danielbatiston/drbcocoaheadslib",
+  "license": "MIT",
+  "authors": {
+    "Daniel Batiston": "danielbatiston@yahoo.com.br"
+  },
+  "source": {
+    "git": "https://bitbucket.org/danielbatiston/drbcocoaheadslib",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "DRBCocoaHeadsLib": [
+      "Pod/Assets/*.*"
+    ]
+  }
+}
